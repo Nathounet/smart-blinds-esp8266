@@ -13,13 +13,13 @@ void reset_time_set()
   timerTimeSet.reset_timer();
 }
 
-void send_new_time()
+static void send_new_time()
 {
   save_time(newTime);
   reset_time_set();
 }
 
-void add_digit(const int newDigit)
+static void add_digit(const int newDigit)
 {
   sound_digit();
 

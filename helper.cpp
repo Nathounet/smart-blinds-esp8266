@@ -48,7 +48,7 @@ void setup_pins()
   digitalWrite(LED_BUILTIN, HIGH);
 }
 
-void update_one_timer(Timer *timerToUpdate, void (*callbackFunc)())
+static void update_one_timer(Timer *timerToUpdate, void (*callbackFunc)())
 {
   if (timerToUpdate->is_timer_running() == true)
   {

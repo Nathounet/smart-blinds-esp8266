@@ -13,18 +13,18 @@
 
 # Requirements:
 The system time shall be up to date.
-The system must be connected to the same network as the ESP8266. 
+The system must be connected to the same network as the ESP8266.
 
 
 # Misc
 #### To compile and upload code without opening the Arduino IDE use the following:
 * To compile and upload code on MacOS:
 ```shell
-/Applications/Arduino.app/Contents/MacOS/Arduino --upload /Users/Than/smart-blinds/esp8266/espSmartBlinds.ino
+/Applications/Arduino.app/Contents/MacOS/Arduino --upload /Users/Than/smart-blinds/espSmartBlinds/espSmartBlinds.ino
 ```
 * To compile only on Windows:
 ```shell
-C:\Users\Than\arduino-1.8.2-windows\arduino-1.8.2\arduino_debug.exe --verify C:\Users\Than\smart-blinds\esp8266\espSmartBlinds.ino
+C:\Users\Than\arduino-1.8.2-windows\arduino-1.8.2\arduino_debug.exe --verify C:\Users\Than\smart-blinds\espSmartBlinds\espSmartBlinds.ino
 ```
 
 #### To see what's happening on serial use ino and picocom

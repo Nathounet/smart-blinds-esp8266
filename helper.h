@@ -21,7 +21,7 @@ void setup_wifi();
 void setup_pins();
 void is_mqtt_connected();
 void publish_loop();
-void update_one_timer(Timer *timerToUpdate, void (*callbackFunc)());
+static void update_one_timer(Timer *timerToUpdate, void (*callbackFunc)());
 void update_all_timer();
 void read_IR_frame(const int key);
 

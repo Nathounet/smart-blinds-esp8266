@@ -19,7 +19,7 @@ void setup_mqtt()
   reconnect();
 }
 
-void on_message(char* topic, byte* payload, unsigned int payloadSize)
+static void on_message(char* topic, byte* payload, unsigned int payloadSize)
 {
   Serial.print("receiving "); ////DEL_ME
   Serial.println((char)(payload[0])); ////DEL_ME
